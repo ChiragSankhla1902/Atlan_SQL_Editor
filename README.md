@@ -34,7 +34,7 @@ I tried to use as less libraries as possible so as to make application load fast
 
 Page Load TIme has been calculated by using the [Lighthouse Tool](https://developers.google.com/web/tools/lighthouse).
 
-<img width="70%" src="screenshots/performance.jpeg" />
+<img width="100%" src="screenshot/performance.png" />
 
 ## How to run:
 
@@ -49,9 +49,9 @@ Page Load TIme has been calculated by using the [Lighthouse Tool](https://develo
 Screenshots
 -----------
 
-<img width="70%" src="screenshots/1.jpeg" />
-<img width="70%" src="screenshots/2.jpeg" />
-<img width="70%" src="screenshots/3.jpeg" />
-<img width="70%" src="screenshots/4.jpeg" />
-<img width="70%" src="screenshots/5.jpeg" />
-<img width="70%" src="screenshots/6.jpeg" />
+<img width="100%" src="screenshot/1.png" />
+<img width="100%" src="screenshot/2.png" />
+<img width="100%" src="screenshot/3.png" />
+<img width="100%" src="screenshot/4.png" />
+<img width="100%" src="screenshot/5.png" />
+<img width="100%" src="screenshot/6.png" />
