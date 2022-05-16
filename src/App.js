@@ -31,17 +31,20 @@ function App() {
         <br/>
         <br/>
         <Grid item>
-          <Typography variant='h3'> Dataset of {TableName[ActiveTable]}</Typography>
+          <Typography variant='h3' fontSize='2rem'> Dataset of {TableName[ActiveTable]}</Typography>
         </Grid>
         <br/>
         <br/>
-        <Grid item lg={12} md={12} sm={4}>
-          <BasicTable query1={queries[ActiveTable]} />
+        <Grid item lg={10} md={10} ml={2} mr={4} sm={4}>
+          <div ><BasicTable query1={queries[ActiveTable]} /> </div>
         </Grid>
         <br/>
         <br/>
         <Grid item lg={10} md={10} sm={4} >
+          <div style={{backgroundColor:'#f4f4fa'}}>
+          <div style={{textAlign:'center'}}><h1>Query Arena</h1></div>
           <Tabs defaultQuery={queries[ActiveTable]}/>
+          </div>
         </Grid>
       </Grid>
 

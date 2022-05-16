@@ -70,7 +70,7 @@ export default function BasicTabs({defaultQuery}) {
   
   return (
     <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider',display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'flex-start' }}>
+      <Box sx={{ borderBottom: 1, borderColor: 'divider',display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginRight:'2%' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Home"  />
           <Tab label="Query 1" icon={ <CloseIcon onClick={handleCancel}/>} iconPosition="end"  />
